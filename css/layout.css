@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: px;
+  text-align: 20 center;
+  margin: 0;
+  color: blue;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 10px;
+  padding-left: 30px;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+input {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+
+#dobErrMsg {
+  font-size: 10px;
+  color: red;
+}
+
+
+
+text {
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+  padding-left: 80px;
+  color: yellow;
+}
+
+.History h4 {
+  color: white;
+}
+
+#myBtn {
+  background-color: #6666FF;
+}
+
+#clrBtn {
+  background-color: #ff6666;
+
+}
+
+#result {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#notridictext {
+  color: #7FFF00;
+  font-weight: bold;
+}
+select {
+  background-color: black;
+  color: white;
+}

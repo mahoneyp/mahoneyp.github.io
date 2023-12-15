@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>KlipDB Dynamic Search</title>
+    <link rel="stylesheet" href="css/layout.css" type="text/css">
+  </head>
+
+  <body>
+    <table>
+      <tr>
+
+        <div class="greeting">
+          <td>
+            <h1>KlipDB Dynamic Search</h1>
+          </td>
+          <td>
+            <h3>by Paul Mahoney</h3>
+          </td>
+        </div>
+      </tr>
+    </table>
+    <p>
+
+    </p>
+    <table>
+      <tr>
+        <td>
+          <label for="first">First</label>
+        </td>
+        <td>
+          <input type="text" name="first" id="first" required="required" title="Press Enter On Any Field To Submit" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="second">Second</label>
+        </td>
+        <td>
+          <input typ="text" name="second" id="second" title="Press Enter On Any Field To Submit"/>
+        </td>
+        <td>
+          <text>
+            A quick way to search Name, Description, Tag, and Audio for each input.
+          </text>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="third">Third</label>
+        </td>
+        <td>
+          <input type="text" name="third" id="third" title="Press Enter On Any Field To Submit"/>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>
+          <label for="fourth">Fourth</label>
+        </td>
+        <td>
+          <input type="text" name="fourth" id="fourth" title="Press Enter On Any Field To Submit"/>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <select name="contain" id="contain" title="Use this to change search to 'word match' for all terms">
+            <option value="contains">Contains</option>
+            <option value="wordmatch">Word Match</option>
+          </select>
+          <br>
+          <input type="checkbox" id="notridic" name="notridic" value="NotRidic">
+          <label id="notridictext" for="notridic" title="Select this to add 'Series is not Ridiculousness' to search">Series Is NOT Ridic</label><br>
+        </td>
+      </tr>
+      <span id="dobErrMsg"></span>
+
+      <tr>
+        <td></td>
+        <td>
+          <button id="myBtn" onclick="myValidator()" title="Press Enter On Any Field To Submit">Generate Search</button>
+        </td>
+        <td>
+          <!-- Add keyboard shortcut with the `accesskey` attribute (access it with Alt + Shift + key in Firefox) -->
+          <button accesskey="q" title="Clears the fields but NOT the History" id="clrBtn" onclick="clearEntry()">Clear</button>
+        </td>
+      </tr>
+    </table>
+    <div class="History" id="history">
+      <h4>
+        History
+      </h4>
+      <span id="result"></span>
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+
+</html>
