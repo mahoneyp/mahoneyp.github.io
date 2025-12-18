@@ -1,0 +1,1 @@
+A quick way to search Name, Description, Tag, and Audio for each input on KlipDB
